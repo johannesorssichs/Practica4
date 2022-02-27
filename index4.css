@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+  }
+
+  body
+  {
+    background-color: grey;
+  }
+
+  .encabezado_superior
+  {
+    background-color: rgb(185, 70, 50);
+    font-family: sans-serif;
+    padding: 35px;
+    position:auto;
+    color: white;
+  }
+
+  #container
+  {
+    width: auto;
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .carta
+  {
+    width: 250px;
+    margin-top: 120px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: sans-serif;
+  }
+
+  .card img 
+  {
+    width: 100%;
+  }
+
+  
